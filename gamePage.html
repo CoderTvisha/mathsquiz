@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="gamePage.css">
+</head>
+
+<body >
+<h1 style="font-weight: 100; color: white; font-family: 'Playfair Display', serif;">Math Quiz</h1>
+    <div id="scoreBoard">
+        <h4 id="player1_name"></h4> <span id="player1_scoreBoard"></span>
+        <br>
+        <h4 id="player2_name"></h4> <span id="player2_scoreBoard"></span>   
+</div>
+
+<div class="container">
+	<center>
+	
+		<h3 style="color: white;" id="player_question"></h3>
+		<h3 style="color: white;" id="player_answer"></h3>
+		<div id="output" class="col-lg-6" style="background-color: white; border-top: 10px solid teal; border-radius: 20px;"> 
+		<br>
+		<br>
+		<h4>Number 1</h4>
+		<input  style="border: 2px solid black;  " type="text" id="number1" class="form-control" placeholder="Number 1">
+		<br>
+		<h4 >Number 2</h4>
+		<input  style="border: 2px solid black;   " type="text" id="number2" class="form-control" placeholder="Number 2">
+		<br>
+        <button onclick="send()" class="btn " style="width: 10%; margin-top: 20px; margin-bottom: 20px; background-color: teal;">Send</button>
+    </div>
+    </center>
+</div>
+</body>
+<script src="gamePage.js"></script>
+</html>

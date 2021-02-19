@@ -1,0 +1,38 @@
+
+
+#player1_loginDiv{
+    text-align: center;
+    background-color: white;
+    width: 800;
+    height: 1000;
+border-radius: 10px;
+border-top: 5px solid turquoise;
+}
+
+#player1_nameInput{
+    margin: 20px auto;
+    margin-bottom: 20px;
+
+}
+
+#player2_loginDiv{
+    text-align: center;
+    background-color: white;
+    width: 800;
+    height: 1000;
+border-radius: 10px;
+border-top: 5px solid turquoise;
+}
+
+#player2_nameInput{
+    margin: 20px auto;
+    margin-bottom: 20px;
+
+}
+
+#addUser_bttn{
+    background-color: turquoise;
+    color: white;
+    font-size: 20px;
+}
+
